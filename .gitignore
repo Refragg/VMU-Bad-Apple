@@ -6,3 +6,4 @@
 *.bin
 *.json
 .vs
+!/romdisk_boot/*
