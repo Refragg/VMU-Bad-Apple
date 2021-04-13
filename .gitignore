@@ -1,0 +1,8 @@
+*.o
+*.elf
+*.img
+*.cdi
+*.iso
+*.bin
+*.json
+.vs
