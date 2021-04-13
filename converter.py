@@ -7,7 +7,7 @@ from PIL import Image
 
 totalbytes = bytearray()
 for i in range(6073): # Iterate through all frames
-    currentPath = "frames/flattened/frame" + str(i) + ".png" # Set Path to current frame
+    currentPath = "frames/frame" + str(i) + ".png" # Set Path to current frame (change filepath and extension accordingly)
 
     image = Image.open(currentPath) # Open Image at path
 
@@ -27,7 +27,7 @@ for i in range(6073): # Iterate through all frames
     image.close()
 
 # Create a byte file and store everything in order for the dreamcast program to read
-finalfile = open('data', 'wb')
+finalfile = open('frames.bin', 'wb')
 finalfile.write(totalbytes)
 finalfile.close()
 
