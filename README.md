@@ -1,4 +1,4 @@
-#VMU Bad Apple
+# VMU Bad Apple
 This repo contains the code for the video [Bad Apple!! on a Dreamcast VMU](https://youtu.be/Xot3X04KHPU). 
 
 - The python script contains the conversion code and takes in a set amount of frames that you must provide which are of size 48x32 and 1bpp or equivalent, it outputs a readable binary file for the Dreamcast program
